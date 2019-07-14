@@ -19,7 +19,8 @@ g++ -o readImage readImage.cpp `pkg-config --cflags --libs opencv`
 ```
 
 ### Usage
-First do your normal quickroute set up, dragging the route to the correct places. Once that is done, export the map as a jpg with tran
+First do your normal quickroute set up, dragging the route to the correct places. Once that is done, export the map as a jpg with the route set to transparent. Then export the route data to an xml file. The program expects a quickroute headed jpg file so using just a scan will have a 70px offset.
+
 ./readImage /path/to/route/xml /path/to/map/image /path/to/video offset
 
 The offset is the number of seconds the gps recording starts after the video recording
