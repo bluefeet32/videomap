@@ -38,6 +38,7 @@ ESC - stop execution and gracefully exit
 
 ### TODOs
 The output is currently massive (>4x the size of the input)
+Add a small example set of files
 
 ### Notes
 There are some extra files for testing the xml, video and image reading parts seperately. Instructions for compiling them
